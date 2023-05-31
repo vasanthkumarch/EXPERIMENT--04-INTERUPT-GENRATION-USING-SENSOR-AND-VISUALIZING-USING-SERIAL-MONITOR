@@ -78,7 +78,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 8. edit the program and as per required 
 ![image](https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png)
 
-9. Select EXTI pin configuration and clock configuration 
+9. use project and build all 
 ![image](https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png)
 10. once the project is bulild 
 ![image](https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png)
@@ -86,21 +86,26 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 11. click on debug option 
 ![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
 
+12. connect the  iot board to power supply and usb 
 
-12.  Creating Proteus project and running the simulation
-We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
+13. After connecting open the STM cube programmer 
+![image](https://user-images.githubusercontent.com/36288975/227599356-9c465b7e-6bd0-436b-b4e8-742ed25e06ce.png)
 
-13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
-14. After creation of the circuit as per requirement as shown below 
+14. click on UART and click on connect 
+![image](https://user-images.githubusercontent.com/36288975/227599458-26976d4a-f2d4-49f0-a49f-31f46eb15761.png)
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+15. once it is connected , click on Erasing and programming option 
+![image](https://user-images.githubusercontent.com/36288975/227599531-f03d277e-440f-4f8a-8875-97f8e8058c71.png)
 
-14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
-https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
+16. flash the bin or hex file as shown below by switching the switch to flash mode 
 
-15. click on debug and simulate using simulation as shown below 
+![image](https://user-images.githubusercontent.com/36288975/227599656-dc4a635f-b5f1-44c8-84c5-ee0a592fa184.png)
 
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
+
+17. check for execution of the output by switching the board to run mode 
+18. click on the serial port utility 
+![image](https://github.com/vasanthkumarch/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/36288975/cd2c17fc-afac-4d72-97f9-20db3e63f23f)
+19. click on the run to observe the values 
 
 
   
