@@ -114,10 +114,11 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
 
 
 
-## Output screen shots of proteus  :
+## Output screen shots of serial port utility   :
  
  
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+ ## Circuit board :
+ 
  
  
 ## Result :
